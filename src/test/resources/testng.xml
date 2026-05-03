@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ClothingStoreTesting" configfailurepolicy="continue">
+   <test name="ClothingStoreTesting" group-by-instances="true" preserve-order="true">
+    <parameter name = "browser" value = "Chrome"/>  
+    <classes>
+	        <!-- <class name = "TestSuite.AccountManagement.Register"/> -->
+            <!-- <class name = "TestSuite.AccountManagement.Login"/> -->
+             
+            <!-- <class name = "TestSuite.Order.OrderProductWithLogin"/> -->  
+            <!-- <class name = "TestSuite.Order.OrderProductWithoutLogin"/> -->
+             
+            <class name = "TestSuite.CategoryProductManagement.AddCategory"/>
+	        <class name = "TestSuite.CategoryProductManagement.UpdateCategory"/>
+            <class name = "TestSuite.CategoryProductManagement.DeleteCategory"/>
+             
+            <!-- <class name = "TestSuite.ProductManagement.AddProduct"/> -->
+            <!-- <class name = "TestSuite.ProductManagement.DeleteProduct"/> -->
+    </classes>
+  </test> <!-- Test -->
+ 
+</suite> <!-- Suite -->
